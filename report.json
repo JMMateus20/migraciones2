@@ -79,6 +79,38 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "crear-tabla-articulos",
+          "type": "SQL",
+          "filepath": "C:\\Users\\USUARIO\\Desktop\\migrgirpro\\migraciones2\\db\\migrations\\V1__crear-tabla-articulos.sql",
+          "executionTime": 507
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "crear-tabla-clientes",
+          "type": "SQL",
+          "filepath": "C:\\Users\\USUARIO\\Desktop\\migrgirpro\\migraciones2\\db\\migrations\\V2__crear-tabla-clientes.sql",
+          "executionTime": 448
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-09-27T11:12:37.686",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }
