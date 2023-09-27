@@ -1,0 +1,84 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-09-26T21:51:02.996844700",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "crear-tabla-articulos",
+          "type": "SQL",
+          "filepath": "C:\\Users\\USUARIO\\Desktop\\migrgirpro\\migraciones2\\db\\migrations\\V1__crear-tabla-articulos.sql",
+          "executionTime": 459
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema `u440037415_dev_depgirpro` may not be reproducible."
+      ],
+      "timestamp": "2023-09-26T21:57:39.670733100",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-09-26T22:02:10.569727700",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "1",
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "crear-tabla-clientes",
+          "type": "SQL",
+          "filepath": "C:\\Users\\USUARIO\\Desktop\\migrgirpro\\migraciones2\\db\\migrations\\V3__crear-tabla-clientes.sql",
+          "executionTime": 447
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.2",
+      "database": "u440037415_dev_depgirpro",
+      "warnings": [],
+      "timestamp": "2023-09-26T22:05:21.205549600",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
